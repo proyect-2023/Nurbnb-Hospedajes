@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nurbnb.Hospedaje.Domain", "Nurbnb.Hospedaje.Domain\Nurbnb.Hospedaje.Domain.csproj", "{7C9F521A-9C16-47ED-9780-6BC1C75DBBA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant.SharedKernel", "Restaurant.Common\Restaurant.SharedKernel\Restaurant.SharedKernel.csproj", "{E466281F-1418-46F8-9275-23DA55322E0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nurbnb.Hospedaje.Application", "Nurbnb.Hospedaje.Application\Nurbnb.Hospedaje.Application.csproj", "{81673F7E-CB69-4A2F-A3BD-BF2F9C0B8C23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nurbnb.Hospedaje.Infrastructure", "Nurbnb.Hospedaje.Infrastructure\Nurbnb.Hospedaje.Infrastructure.csproj", "{40C79FAA-E1C2-4E5B-93C0-88F09498B51D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nurbnb.Hospedaje.WebAPI", "Nurbnb.Hospedaje.WebAPI\Nurbnb.Hospedaje.WebAPI.csproj", "{AA91E928-CEE4-4332-8A0A-58CBA727F3F6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C9F521A-9C16-47ED-9780-6BC1C75DBBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9F521A-9C16-47ED-9780-6BC1C75DBBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9F521A-9C16-47ED-9780-6BC1C75DBBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9F521A-9C16-47ED-9780-6BC1C75DBBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E466281F-1418-46F8-9275-23DA55322E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E466281F-1418-46F8-9275-23DA55322E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E466281F-1418-46F8-9275-23DA55322E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E466281F-1418-46F8-9275-23DA55322E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81673F7E-CB69-4A2F-A3BD-BF2F9C0B8C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81673F7E-CB69-4A2F-A3BD-BF2F9C0B8C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81673F7E-CB69-4A2F-A3BD-BF2F9C0B8C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81673F7E-CB69-4A2F-A3BD-BF2F9C0B8C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C79FAA-E1C2-4E5B-93C0-88F09498B51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C79FAA-E1C2-4E5B-93C0-88F09498B51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C79FAA-E1C2-4E5B-93C0-88F09498B51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C79FAA-E1C2-4E5B-93C0-88F09498B51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA91E928-CEE4-4332-8A0A-58CBA727F3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA91E928-CEE4-4332-8A0A-58CBA727F3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA91E928-CEE4-4332-8A0A-58CBA727F3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA91E928-CEE4-4332-8A0A-58CBA727F3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
